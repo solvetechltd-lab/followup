@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>3 LP Follow-Up Messages You Can Use Today | LPMeet</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F4F5F7; --surface:#FFFFFF; --orange:#F97316; --orange-soft:#FFF1E6; --black:#0A0A0A;
+  --muted:#6B7280; --border:#E5E7EB; --radius:20px;
+  --shadow:0 1px 2px rgba(10,10,10,.04),0 4px 14px rgba(10,10,10,.04);
+  --shadow-hover:0 2px 4px rgba(10,10,10,.05),0 12px 28px rgba(10,10,10,.08);
+  --font:"Made Tommy","MADE TOMMY","Outfit","Plus Jakarta Sans","Segoe UI",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--font);background:var(--bg);color:var(--black);line-height:1.5;-webkit-font-smoothing:antialiased}
+button,input,select,textarea{font-family:inherit;font-size:inherit;color:inherit}
+button{cursor:pointer}
+.wrap{max-width:1120px;margin:0 auto;padding:40px 24px 64px}
+
+/* Header */
+.header{display:flex;justify-content:space-between;align-items:flex-end;gap:32px;flex-wrap:wrap;margin-bottom:48px}
+.eyebrow{display:flex;align-items:center;gap:10px;font-size:12px;font-weight:600;letter-spacing:.14em;color:var(--muted);margin-bottom:20px}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--orange);display:inline-block;flex-shrink:0;box-shadow:0 0 0 4px rgba(249,115,22,.15)}
+h1{font-size:clamp(34px,5.4vw,58px);line-height:1.04;letter-spacing:-.03em;font-weight:600;max-width:640px}
+h1 .accent{position:relative}
+.sub{margin-top:18px;color:var(--muted);font-size:17px;max-width:520px}
+.utility{display:flex;flex-direction:column;gap:10px;min-width:210px;padding:14px;background:rgba(255,255,255,.65);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--border);border-radius:var(--radius)}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--border);background:var(--surface);font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;transition:all .18s ease;text-decoration:none;white-space:nowrap}
+.btn:hover{border-color:var(--black)}
+.btn:active{transform:scale(.98)}
+.btn.primary{background:var(--orange);border-color:var(--orange);color:#fff}
+.btn.primary:hover{background:#ea6a0c;border-color:#ea6a0c}
+.btn.dark{background:var(--black);border-color:var(--black);color:#fff}
+.btn.dark:hover{background:#222}
+.btn.ghost{background:transparent}
+.btn.danger:hover{border-color:#DC2626;color:#DC2626}
+.btn.sm{min-height:38px;padding:0 14px;font-size:11px}
+.btn.copied{background:var(--black);border-color:var(--black);color:#fff}
+
+/* Library controls */
+.section-head{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+.section-title{font-size:13px;font-weight:600;letter-spacing:.14em;color:var(--black);display:flex;align-items:center;gap:10px}
+.count{color:var(--muted);font-weight:500;letter-spacing:.04em}
+.search{position:relative;flex:1;min-width:240px;max-width:380px}
+.search input{width:100%;height:46px;padding:0 16px 0 42px;border-radius:999px;border:1px solid var(--border);background:var(--surface);outline:none;transition:border-color .18s,box-shadow .18s}
+.search input:focus{border-color:var(--orange);box-shadow:0 0 0 4px rgba(249,115,22,.12)}
+.search svg{position:absolute;left:15px;top:50%;transform:translateY(-50%);color:var(--muted)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}
+.chip{height:38px;padding:0 16px;border-radius:999px;border:1px solid var(--border);background:var(--surface);font-size:11px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);transition:all .18s}
+.chip:hover{color:var(--black);border-color:var(--black)}
+.chip.active{background:var(--orange);border-color:var(--orange);color:#fff}
+
+/* Cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(480px,1fr));gap:20px}
+.card{position:relative;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);transition:transform .2s ease,box-shadow .2s ease,border-color .2s ease;display:flex;flex-direction:column;animation:rise .3s ease both;break-inside:avoid;page-break-inside:avoid}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-hover);border-color:#D1D5DB}
+.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+.cat{display:inline-flex;align-items:center;gap:8px;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--orange)}
+.tag{font-size:10px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);border:1px solid var(--border);border-radius:999px;padding:3px 10px}
+.title-row{display:flex;align-items:baseline;gap:14px;margin-bottom:18px}
+.num{font-size:15px;font-weight:600;color:var(--muted);font-variant-numeric:tabular-nums}
+.card h3{font-size:22px;letter-spacing:-.015em;line-height:1.2;font-weight:600}
+.label{font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.when{color:#374151;font-size:14.5px;margin-bottom:20px}
+.msg{position:relative;background:var(--bg);border-radius:14px;padding:20px 22px 20px 26px;margin-bottom:20px;font-size:17.5px;line-height:1.6;font-weight:500;letter-spacing:-.005em;white-space:pre-wrap;overflow-wrap:anywhere}
+.msg::before{content:"";position:absolute;left:0;top:16px;bottom:16px;width:3px;border-radius:3px;background:var(--orange)}
+.ph{color:var(--orange);background:var(--orange-soft);border-radius:6px;padding:0 4px}
+.why{color:#374151;font-size:14.5px;margin-bottom:22px}
+.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:auto}
+.actions .btn.primary{flex:1;min-width:150px}
+.empty{grid-column:1/-1;text-align:center;padding:56px 24px;background:var(--surface);border:1px dashed var(--border);border-radius:var(--radius);color:var(--muted)}
+.empty strong{display:block;color:var(--black);font-size:18px;margin-bottom:6px}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+/* Workflow */
+.workflow{margin-top:64px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:32px;box-shadow:var(--shadow);break-inside:avoid}
+.flow{display:flex;align-items:stretch;gap:0;margin-top:22px;flex-wrap:wrap}
+.step{flex:1;min-width:130px;padding:16px 14px;text-align:center;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;border:1px solid var(--border);border-radius:14px;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px}
+.step.hi{background:var(--orange-soft);border-color:#FDBA74}
+.step .n{width:22px;height:22px;border-radius:50%;background:var(--orange);color:#fff;font-size:11px;display:flex;align-items:center;justify-content:center;letter-spacing:0}
+.arrow{align-self:center;padding:0 8px;color:var(--muted);font-size:16px}
+
+/* CTA */
+.cta{margin-top:24px;background:var(--black);color:#fff;border-radius:28px;padding:48px;position:relative;overflow:hidden;display:flex;justify-content:space-between;align-items:center;gap:28px;flex-wrap:wrap;break-inside:avoid}
+.cta::after{content:"";position:absolute;right:-60px;top:-60px;width:220px;height:220px;border-radius:50%;background:var(--orange);opacity:.14}
+.cta h2{font-size:clamp(26px,3.6vw,38px);letter-spacing:-.025em;line-height:1.1;font-weight:600;margin-bottom:10px;position:relative}
+.cta p{color:#A1A1AA;max-width:460px;position:relative}
+.cta .btn{position:relative;min-height:52px;padding:0 28px;z-index:1}
+.footer{margin-top:28px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:12px;color:var(--muted);letter-spacing:.04em}
+.footer button{background:none;border:none;color:var(--muted);font-size:12px;text-decoration:underline}
+.footer button:hover{color:var(--orange)}
+
+/* Modal */
+.overlay{position:fixed;inset:0;background:rgba(10,10,10,.45);backdrop-filter:blur(4px);-webkit-backdrop-filter:blur(4px);display:none;align-items:center;justify-content:center;padding:16px;z-index:50}
+.overlay.open{display:flex;animation:fade .18s ease}
+.modal{background:var(--surface);border-radius:24px;width:100%;max-width:560px;max-height:92vh;overflow:auto;padding:30px;box-shadow:0 24px 60px rgba(0,0,0,.25);animation:pop .2s ease}
+.modal.wide{max-width:680px}
+.modal h2{font-size:24px;letter-spacing:-.02em;font-weight:600;margin-bottom:6px}
+.modal .lead{color:var(--muted);font-size:14.5px;margin-bottom:22px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:10.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+.field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1px solid var(--border);border-radius:12px;background:var(--surface);outline:none;transition:border-color .18s,box-shadow .18s}
+.field textarea{min-height:96px;resize:vertical;line-height:1.5}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--orange);box-shadow:0 0 0 4px rgba(249,115,22,.12)}
+.field .err{color:#DC2626;font-size:12px;margin-top:4px;display:none}
+.field.bad .err{display:block}
+.field.bad input,.field.bad textarea{border-color:#DC2626}
+.modal-actions{display:flex;gap:10px;justify-content:flex-end;flex-wrap:wrap;margin-top:22px}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+@keyframes pop{from{opacity:0;transform:scale(.97) translateY(6px)}to{opacity:1;transform:none}}
+
+/* Dropzone */
+.drop{border:2px dashed #D1D5DB;border-radius:18px;padding:44px 20px;text-align:center;background:var(--bg);transition:all .18s;cursor:pointer}
+.drop:hover,.drop.over{border-color:var(--orange);background:var(--orange-soft)}
+.drop .icon{width:48px;height:48px;border-radius:50%;background:var(--orange);color:#fff;display:flex;align-items:center;justify-content:center;margin:0 auto 14px;font-size:22px}
+.drop strong{display:block;font-size:17px;margin-bottom:2px}
+.drop span{color:var(--muted);font-size:14px}
+.drop u{color:var(--orange);font-weight:600}
+.types{margin-top:12px;font-size:12px;color:var(--muted);text-align:center;letter-spacing:.04em}
+.hint{margin-top:14px;font-size:12.5px;color:var(--muted);background:var(--bg);border-radius:12px;padding:12px 14px;white-space:pre-wrap;font-family:ui-monospace,Menlo,Consolas,monospace}
+.pv-bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px;align-items:center}
+.pv-list{display:flex;flex-direction:column;gap:10px;max-height:46vh;overflow:auto;padding-right:2px}
+.pv{display:flex;gap:12px;padding:14px;border:1px solid var(--border);border-radius:14px;cursor:pointer;transition:border-color .15s,background .15s}
+.pv.sel{border-color:var(--orange);background:#FFFAF5}
+.pv input{accent-color:var(--orange);width:18px;height:18px;margin-top:2px;flex-shrink:0}
+.pv b{display:block;font-size:15px}
+.pv .meta{font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin:2px 0}
+.pv .w{font-size:12.5px;color:var(--muted)}
+.pv p{font-size:14px;color:#374151;margin-top:4px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+
+/* Toast */
+.toast{position:fixed;left:50%;bottom:28px;transform:translate(-50%,20px);background:var(--black);color:#fff;padding:13px 22px;border-radius:999px;font-size:14px;font-weight:500;opacity:0;pointer-events:none;transition:all .25s ease;z-index:80;display:flex;align-items:center;gap:10px;max-width:92vw}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+.toast i{width:8px;height:8px;border-radius:50%;background:var(--orange);display:inline-block}
+
+.print-only{display:none}
+
+/* Responsive */
+@media (max-width:820px){
+  .wrap{padding:28px 16px 48px}
+  .grid{grid-template-columns:1fr}
+  .utility{flex-direction:row;flex-wrap:wrap;width:100%}
+  .utility .btn{flex:1;min-width:140px}
+  .header{margin-bottom:32px}
+  .arrow{display:none}
+  .flow{gap:8px}
+  .step{min-width:calc(50% - 4px)}
+  .cta{padding:32px 24px}
+  .cta .btn{width:100%}
+  .card{padding:22px}
+  .modal{padding:24px;border-radius:20px}
+}
+@media (max-width:480px){
+  .actions .btn{flex:1;min-width:0}
+  .actions .btn.primary{flex-basis:100%}
+  .modal-actions .btn{flex:1}
+}
+
+/* Print */
+@page{size:auto;margin:14mm}
+@media print{
+  body{background:#fff}
+  .no-print,.overlay,.toast,.chips,.search,.actions,.utility,.footer button{display:none!important}
+  .print-only{display:block}
+  .wrap{padding:0;max-width:none}
+  .header{margin-bottom:24px}
+  .grid{display:block}
+  .card{box-shadow:none;animation:none;margin-bottom:14px;transform:none!important;border-color:#D1D5DB}
+  .msg{background:#F4F5F7!important;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .msg::before,.dot,.step .n,.step.hi,.cta,.ph{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .workflow{box-shadow:none;margin-top:24px}
+  .cta{margin-top:16px;padding:28px}
+  .tag{display:none}
+  .section-head{margin-bottom:14px}
+  h1{font-size:36px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="header">
+    <div>
+      <div class="eyebrow"><span class="dot"></span>LPMEET • FOLLOW-UP SWIPE SHEET</div>
+      <h1>3 LP Follow-Up Messages<br>You Can Use Today</h1>
+      <p class="sub">Three ready-to-use follow-ups to keep LP conversations moving without sounding pushy.</p>
+    </div>
+    <div class="utility no-print">
+      <button class="btn primary" id="btnAdd">+ Add Message</button>
+      <button class="btn" id="btnUpload">↑ Upload Prompts</button>
+      <button class="btn ghost" id="btnPrint">Print / Save PDF</button>
+    </div>
+  </header>
+
+  <section>
+    <div class="section-head">
+      <div class="section-title"><span class="dot"></span>YOUR FOLLOW-UP LIBRARY <span class="count" id="count"></span></div>
+      <div class="search no-print">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="search" type="search" placeholder="Search your follow-ups..." aria-label="Search your follow-ups">
+      </div>
+    </div>
+    <div class="chips" id="chips" role="tablist"></div>
+    <div class="grid" id="grid"></div>
+  </section>
+
+  <section class="workflow">
+    <div class="section-title"><span class="dot"></span>QUICK WORKFLOW</div>
+    <div class="flow" id="flow"></div>
+  </section>
+
+  <section class="cta">
+    <div>
+      <h2>Turn LP Follow-Up Into a System</h2>
+      <p>Track LP conversations, manage follow-ups, and book meetings from one CRM.</p>
+    </div>
+    <a class="btn primary" id="ctaLink" href="https://lpmeet.com" target="_blank" rel="noopener">Get Started with LPMeet</a>
+  </section>
+
+  <div class="footer">
+    <span>© LPMeet • Follow-Up Swipe Sheet</span>
+    <button class="no-print" id="btnReset">Reset library</button>
+  </div>
+</div>
+
+<!-- Add/Edit modal -->
+<div class="overlay" id="mForm" role="dialog" aria-modal="true" aria-labelledby="formTitle">
+  <form class="modal" id="form" novalidate>
+    <h2 id="formTitle">Add a Follow-Up Message</h2>
+    <p class="lead" id="formLead">Write a message you'll reuse. Use [BRACKETS] for parts you customize.</p>
+    <div class="field" id="f-title"><label for="i-title">Message title</label><input id="i-title" maxlength="120" placeholder="e.g. After No Response"><div class="err">Please add a title.</div></div>
+    <div class="field"><label for="i-cat">Category</label><select id="i-cat"></select></div>
+    <div class="field"><label for="i-when">When to send</label><input id="i-when" maxlength="240" placeholder="e.g. 3–5 days after your last message"></div>
+    <div class="field" id="f-msg"><label for="i-msg">Message</label><textarea id="i-msg" placeholder="Write the message..."></textarea><div class="err">Please add the message text.</div></div>
+    <div class="field"><label for="i-why">Why it works</label><textarea id="i-why" style="min-height:70px" placeholder="Why this message gets replies"></textarea></div>
+    <div class="modal-actions">
+      <button type="button" class="btn" data-close>Cancel</button>
+      <button type="submit" class="btn primary" id="formSubmit">Add Message</button>
+    </div>
+  </form>
+</div>
+
+<!-- Upload modal -->
+<div class="overlay" id="mUpload" role="dialog" aria-modal="true" aria-labelledby="upTitle">
+  <div class="modal wide">
+    <div id="upStep1">
+      <h2 id="upTitle">Import Follow-Up Messages</h2>
+      <p class="lead">Upload a file containing additional follow-up messages or prompts and add them to your swipe library.</p>
+      <div class="drop" id="drop" tabindex="0" role="button" aria-label="Choose a file or drop it here">
+        <div class="icon">↑</div>
+        <strong>Drop your prompt file here</strong>
+        <span>or <u>Choose a file</u></span>
+      </div>
+      <input type="file" id="file" accept=".txt,.md,.csv,.json,text/plain,text/csv,application/json,text/markdown" hidden>
+      <div class="types">Supported: .txt  .md  .csv  .json</div>
+      <div class="hint">Title: After No Response
+Category: No Next Step
+When to send: 3–5 days after the last message
+Message: "Wanted to circle back..."
+Why it works: Creates a low-pressure reason to reconnect.</div>
+      <div class="modal-actions"><button class="btn" data-close>Cancel</button></div>
+    </div>
+    <div id="upStep2" hidden>
+      <h2>Import Preview</h2>
+      <p class="lead" id="pvCount"></p>
+      <div class="pv-bar">
+        <button class="btn sm" id="pvAll">Select All</button>
+        <button class="btn sm" id="pvNone">Deselect All</button>
+        <span class="count" id="pvSel" style="margin-left:auto;font-size:13px"></span>
+      </div>
+      <div class="pv-list" id="pvList"></div>
+      <div class="modal-actions">
+        <button class="btn" id="pvBack">Back</button>
+        <button class="btn" data-close>Cancel</button>
+        <button class="btn primary" id="pvImport">Import Selected</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Confirm modal -->
+<div class="overlay" id="mConfirm" role="dialog" aria-modal="true" aria-labelledby="cTitle">
+  <div class="modal" style="max-width:440px">
+    <h2 id="cTitle">Are you sure?</h2>
+    <p class="lead" id="cText"></p>
+    <div class="modal-actions">
+      <button class="btn" data-close>Cancel</button>
+      <button class="btn dark" id="cOk">Confirm</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite"><i></i><span id="toastText"></span></div>
+
+<script>
+(() => {
+  'use strict';
+
+  /* ---------- Config ---------- */
+  const STORAGE_KEY = 'lpmeet_followup_library_v1';
+  const CATEGORIES = ['Initial Interest','Information Sent','No Next Step','General Follow-Up','Custom'];
+  const FLOW = ['LP shows interest','Follow up','Send information','Follow up','Conversation','Define next step'];
+
+  const DEFAULTS = () => [
+    { id:'def-1', title:'After Initial Interest', category:'Initial Interest',
+      whenToSend:"Send this when an LP has shown interest but hasn't taken the next step.",
+      message:"Great connecting with you. I’d be happy to send over the details we discussed. Would [DAY/TIME] work for a quick follow-up?",
+      whyItWorks:'Keeps momentum without creating unnecessary pressure.', source:'default' },
+    { id:'def-2', title:'After Sending Information', category:'Information Sent',
+      whenToSend:"Send this after you've shared a deck, materials, or additional information.",
+      message:"Just wanted to make sure you had everything you needed. Happy to answer any questions or walk through anything that stood out.",
+      whyItWorks:'Makes it easy for the LP to respond without forcing a meeting.', source:'default' },
+    { id:'def-3', title:'After a Conversation With No Next Step', category:'No Next Step',
+      whenToSend:'Use this when the conversation was positive but no clear next action was agreed.',
+      message:"Really enjoyed our conversation. What would make sense as the next step from your side? Happy to keep things moving whenever the timing is right.",
+      whyItWorks:'Creates a natural opening for the LP to define the next step.', source:'default' }
+  ];
+
+  /* ---------- State ---------- */
+  let library = load();
+  let filter = 'All';
+  let query = '';
+  let editingId = null;
+  let pending = [];      // import preview items
+  let confirmCb = null;
+
+  /* ---------- Helpers ---------- */
+  const $ = (s, r=document) => r.querySelector(s);
+  const $$ = (s, r=document) => [...r.querySelectorAll(s)];
+  const uid = () => 'm-' + Date.now().toString(36) + Math.random().toString(36).slice(2,7);
+  const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+  function load(){
+    try{
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if(raw){
+        const parsed = JSON.parse(raw);
+        if(Array.isArray(parsed)) return parsed;
+      }
+    }catch(e){}
+    return DEFAULTS();
+  }
+  function save(){
+    try{ localStorage.setItem(STORAGE_KEY, JSON.stringify(library)); }catch(e){}
+  }
+
+  function normCategory(v){
+    const s = String(v||'').trim().toLowerCase();
+    if(!s) return 'Custom';
+    const hit = CATEGORIES.find(c => c.toLowerCase() === s)
+      || CATEGORIES.find(c => s.includes(c.toLowerCase()) || c.toLowerCase().includes(s));
+    if(hit) return hit;
+    if(/interest/.test(s)) return 'Initial Interest';
+    if(/info|sent|deck|material/.test(s)) return 'Information Sent';
+    if(/next.?step|no response|silent|ghost/.test(s)) return 'No Next Step';
+    if(/follow/.test(s)) return 'General Follow-Up';
+    return 'Custom';
+  }
+
+  /* ---------- Toast ---------- */
+  let toastT;
+  function toast(text){
+    $('#toastText').textContent = text;
+    const t = $('#toast'); t.classList.add('show');
+    clearTimeout(toastT); toastT = setTimeout(()=>t.classList.remove('show'), 2600);
+  }
+
+  /* ---------- Modals ---------- */
+  function openModal(id){
+    const m = $(id); m.classList.add('open');
+    document.body.style.overflow = 'hidden';
+    const f = $('input,textarea,select,button', m); if(f && id==='#mForm') setTimeout(()=>$('#i-title').focus(), 30);
+  }
+  function closeModals(){
+    $$('.overlay.open').forEach(m=>m.classList.remove('open'));
+    document.body.style.overflow = '';
+    confirmCb = null;
+  }
+  $$('.overlay').forEach(o => {
+    o.addEventListener('mousedown', e => { if(e.target === o) closeModals(); });
+  });
+  document.addEventListener('click', e => { if(e.target.closest('[data-close]')) closeModals(); });
+  document.addEventListener('keydown', e => { if(e.key === 'Escape') closeModals(); });
+
+  function confirmDialog(title, text, okLabel, cb){
+    $('#cTitle').textContent = title;
+    $('#cText').textContent = text;
+    $('#cOk').textContent = okLabel;
+    confirmCb = cb;
+    openModal('#mConfirm');
+  }
+  $('#cOk').addEventListener('click', () => { const cb = confirmCb; closeModals(); if(cb) cb(); });
+
+  /* ---------- Render ---------- */
+  function renderChips(){
+    const list = ['All', ...CATEGORIES];
+    $('#chips').innerHTML = list.map(c =>
+      `<button class="chip${c===filter?' active':''}" data-f="${esc(c)}" role="tab" aria-selected="${c===filter}">${esc(c)}</button>`
+    ).join('');
+  }
+  $('#chips').addEventListener('click', e => {
+    const b = e.target.closest('.chip'); if(!b) return;
+    filter = b.dataset.f; renderChips(); renderCards();
+  });
+
+  function highlight(text){
+    return esc(text).replace(/\[[^\]\n]{1,40}\]/g, m => `<span class="ph">${m}</span>`);
+  }
+
+  function renderCards(){
+    const q = query.trim().toLowerCase();
+    const items = library.map((m,i)=>({m, n:i+1})).filter(({m}) => {
+      if(filter !== 'All' && m.category !== filter) return false;
+      if(!q) return true;
+      return [m.title,m.category,m.whenToSend,m.message,m.whyItWorks].some(v => String(v||'').toLowerCase().includes(q));
+    });
+    $('#count').textContent = `• ${items.length}${items.length!==library.length?' of '+library.length:''}`;
+    const grid = $('#grid');
+    if(!items.length){
+      grid.innerHTML = `<div class="empty"><strong>${library.length?'No matching follow-ups':'Your library is empty'}</strong>${library.length?'Try a different search or filter.':'Add a message or upload a prompt file to get started.'}</div>`;
+      return;
+    }
+    grid.innerHTML = items.map(({m,n}) => `
+      <article class="card" data-id="${esc(m.id)}">
+        <div class="card-top">
+          <span class="cat"><span class="dot" style="width:8px;height:8px;box-shadow:none"></span>${esc(m.category)}</span>
+          ${m.source!=='default' ? `<span class="tag">${esc(m.source)}</span>` : ''}
+        </div>
+        <div class="title-row"><span class="num">${String(n).padStart(2,'0')}</span><h3>${esc(m.title)}</h3></div>
+        ${m.whenToSend ? `<div class="label">When to send</div><p class="when">${esc(m.whenToSend)}</p>` : ''}
+        <div class="label">Message</div>
+        <div class="msg">${m.source==='default' ? '“' : ''}${highlight(m.message)}${m.source==='default' ? '”' : ''}</div>
+        ${m.whyItWorks ? `<div class="label">Why it works</div><p class="why">${esc(m.whyItWorks)}</p>` : ''}
+        <div class="actions">
+          <button class="btn primary" data-act="copy">Copy Message</button>
+          <button class="btn" data-act="edit">Edit</button>
+          <button class="btn danger" data-act="delete">Delete</button>
+        </div>
+      </article>`).join('');
+  }
+
+  $('#grid').addEventListener('click', e => {
+    const btn = e.target.closest('[data-act]'); if(!btn) return;
+    const id = btn.closest('.card').dataset.id;
+    const m = library.find(x => x.id === id); if(!m) return;
+    const act = btn.dataset.act;
+    if(act === 'copy') copyText(m.message, btn);
+    if(act === 'edit') openForm(m);
+    if(act === 'delete') confirmDialog('Delete this message?', `“${m.title}” will be removed from your library.`, 'Delete', () => {
+      library = library.filter(x => x.id !== id); save(); renderCards(); toast('Message deleted.');
+    });
+  });
+
+  /* ---------- Copy ---------- */
+  async function copyText(text, btn){
+    let ok = false;
+    try{
+      if(navigator.clipboard && window.isSecureContext){ await navigator.clipboard.writeText(text); ok = true; }
+    }catch(e){}
+    if(!ok){
+      const ta = document.createElement('textarea');
+      ta.value = text; ta.style.cssText = 'position:fixed;opacity:0;top:0;left:0';
+      document.body.appendChild(ta); ta.select();
+      try{ ok = document.execCommand('copy'); }catch(e){}
+      ta.remove();
+    }
+    if(!ok){ toast('Copy failed. Select the text and copy manually.'); return; }
+    const orig = 'Copy Message';
+    btn.textContent = 'Copied ✓'; btn.classList.add('copied');
+    clearTimeout(btn._t);
+    btn._t = setTimeout(() => { btn.textContent = orig; btn.classList.remove('copied'); }, 1500);
+  }
+
+  /* ---------- Add / Edit ---------- */
+  $('#i-cat').innerHTML = CATEGORIES.map(c => `<option>${esc(c)}</option>`).join('');
+
+  function openForm(m){
+    editingId = m ? m.id : null;
+    $('#formTitle').textContent = m ? 'Edit Follow-Up Message' : 'Add a Follow-Up Message';
+    $('#formSubmit').textContent = m ? 'Save Changes' : 'Add Message';
+    $('#i-title').value = m ? m.title : '';
+    $('#i-cat').value = m ? normCategory(m.category) : 'Custom';
+    $('#i-when').value = m ? m.whenToSend : '';
+    $('#i-msg').value = m ? m.message : '';
+    $('#i-why').value = m ? m.whyItWorks : '';
+    $$('.field.bad').forEach(f => f.classList.remove('bad'));
+    openModal('#mForm');
+  }
+  $('#btnAdd').addEventListener('click', () => openForm(null));
+
+  $('#form').addEventListener('submit', e => {
+    e.preventDefault();
+    const title = $('#i-title').value.trim();
+    const message = $('#i-msg').value.trim();
+    $('#f-title').classList.toggle('bad', !title);
+    $('#f-msg').classList.toggle('bad', !message);
+    if(!title || !message) return;
+    const data = {
+      title, message,
+      category: $('#i-cat').value,
+      whenToSend: $('#i-when').value.trim(),
+      whyItWorks: $('#i-why').value.trim()
+    };
+    if(editingId){
+      const m = library.find(x => x.id === editingId);
+      if(m) Object.assign(m, data);
+      toast('Changes saved.');
+    }else{
+      library.push({ id: uid(), ...data, source:'custom' });
+      toast('Message added to your library.');
+      filter = 'All'; query = ''; $('#search').value = ''; renderChips();
+    }
+    save(); closeModals(); renderCards();
+  });
+
+  /* ---------- Search ---------- */
+  $('#search').addEventListener('input', e => { query = e.target.value; renderCards(); });
+
+  /* ---------- Upload / Import ---------- */
+  function resetUpload(){
+    $('#upStep1').hidden = false; $('#upStep2').hidden = true;
+    $('#file').value = ''; pending = [];
+  }
+  $('#btnUpload').addEventListener('click', () => { resetUpload(); openModal('#mUpload'); });
+
+  const drop = $('#drop');
+  drop.addEventListener('click', () => $('#file').click());
+  drop.addEventListener('keydown', e => { if(e.key==='Enter' || e.key===' '){ e.preventDefault(); $('#file').click(); } });
+  ['dragenter','dragover'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.add('over'); }));
+  ['dragleave','drop'].forEach(ev => drop.addEventListener(ev, e => { e.preventDefault(); drop.classList.remove('over'); }));
+  drop.addEventListener('drop', e => { const f = e.dataTransfer.files && e.dataTransfer.files[0]; if(f) handleFile(f); });
+  $('#file').addEventListener('change', e => { const f = e.target.files[0]; if(f) handleFile(f); });
+  // Prevent browser from navigating when a file is dropped outside the zone
+  ['dragover','drop'].forEach(ev => window.addEventListener(ev, e => { if(!e.target.closest('#drop')) e.preventDefault(); }));
+
+  function handleFile(file){
+    const ext = (file.name.split('.').pop() || '').toLowerCase();
+    if(!['txt','md','csv','json'].includes(ext)){ toast('Unsupported file type. Use .txt, .md, .csv or .json'); return; }
+    const r = new FileReader();
+    r.onload = () => {
+      let items = [];
+      try{ items = parseContent(String(r.result), ext); }
+      catch(err){ items = []; }
+      items = items.filter(i => i.message && i.message.trim());
+      if(!items.length){ toast('No messages detected in that file.'); return; }
+      pending = items.map(i => ({...i, selected:true}));
+      showPreview();
+    };
+    r.onerror = () => toast('Could not read that file.');
+    r.readAsText(file);
+  }
+
+  /* --- Parsers --- */
+  const KEYMAP = { title:'title', name:'title', subject:'title', category:'category', type:'category', stage:'category',
+    'when to send':'whenToSend', when:'whenToSend', timing:'whenToSend', 'when_to_send':'whenToSend', whentosend:'whenToSend',
+    message:'message', body:'message', text:'message', prompt:'message', template:'message', copy:'message',
+    'why it works':'whyItWorks', why:'whyItWorks', 'why_it_works':'whyItWorks', whyitworks:'whyItWorks', reason:'whyItWorks', notes:'whyItWorks' };
+
+  function clean(v){
+    let s = String(v ?? '').trim();
+    s = s.replace(/^["'“‘]+/, '').replace(/["'”’]+$/, '').trim();
+    return s;
+  }
+  function mapObj(o){
+    const out = {};
+    Object.keys(o||{}).forEach(k => {
+      const key = KEYMAP[String(k).toLowerCase().trim()];
+      if(key && o[k] != null) out[key] = clean(o[k]);
+    });
+    return out;
+  }
+  function finalize(o, i){
+    return {
+      title: o.title || (o.message ? o.message.split(/\s+/).slice(0,6).join(' ') + '…' : 'Imported Message ' + (i+1)),
+      category: normCategory(o.category),
+      whenToSend: o.whenToSend || '',
+      message: o.message || '',
+      whyItWorks: o.whyItWorks || ''
+    };
+  }
+
+  function parseContent(text, ext){
+    text = text.replace(/^\uFEFF/, '');
+    let recs = [];
+    if(ext === 'json') recs = parseJSON(text);
+    else if(ext === 'csv') recs = parseCSV(text);
+    else recs = parseText(text);
+    return recs.map(finalize);
+  }
+
+  function parseJSON(text){
+    const data = JSON.parse(text);
+    let arr = Array.isArray(data) ? data : (data.messages || data.prompts || data.items || data.followUps || data.library || [data]);
+    if(!Array.isArray(arr)) arr = [arr];
+    return arr.map(x => typeof x === 'string' ? { message: clean(x) } : mapObj(x));
+  }
+
+  function csvRows(text){
+    const rows = []; let row = [], cur = '', q = false;
+    for(let i=0;i<text.length;i++){
+      const c = text[i];
+      if(q){
+        if(c === '"'){ if(text[i+1] === '"'){ cur += '"'; i++; } else q = false; }
+        else cur += c;
+      }else{
+        if(c === '"') q = true;
+        else if(c === ',' ){ row.push(cur); cur = ''; }
+        else if(c === '\n' || c === '\r'){
+          if(c === '\r' && text[i+1] === '\n') i++;
+          row.push(cur); cur = ''; rows.push(row); row = [];
+        } else cur += c;
+      }
+    }
+    if(cur.length || row.length){ row.push(cur); rows.push(row); }
+    return rows.filter(r => r.some(c => c.trim() !== ''));
+  }
+  function parseCSV(text){
+    const rows = csvRows(text); if(!rows.length) return [];
+    const header = rows[0].map(h => KEYMAP[h.toLowerCase().trim()] || null);
+    if(header.includes('message')){
+      return rows.slice(1).map(r => { const o = {}; header.forEach((k,i) => { if(k && r[i] != null) o[k] = clean(r[i]); }); return o; });
+    }
+    // No recognizable header: first column = message (or title,message if 2+ columns)
+    return rows.map(r => r.length > 1 ? { title: clean(r[0]), message: clean(r[1]), category: r[2], whenToSend: r[3], whyItWorks: r[4] } : { message: clean(r[0]) });
+  }
+
+  function parseText(text){
+    const lines = text.split(/\r?\n/);
+    const keyRe = /^\s*(?:#{1,6}\s*)?(?:[-*•]\s+|\d+[.)]\s+)?\**\s*(title|name|subject|category|type|stage|when to send|when|timing|message|body|prompt|template|why it works|why|reason)\s*\**\s*[:：]\s*\**\s*(.*)$/i;
+    const recs = []; let cur = null, lastKey = null;
+    const push = () => { if(cur && (cur.message || cur.title)) recs.push(cur); cur = null; lastKey = null; };
+    let sawKey = false;
+
+    for(const raw of lines){
+      const line = raw.replace(/\s+$/,'');
+      if(/^\s*(-{3,}|={3,}|\*{3,})\s*$/.test(line)){ push(); continue; }
+      const m = line.match(keyRe);
+      if(m){
+        sawKey = true;
+        const key = KEYMAP[m[1].toLowerCase()];
+        if(!cur) cur = {};
+        const hasContent = cur.message || cur.title;
+        if((key === 'title' && cur.title) || (key === 'title' && cur.message) || (key === 'message' && cur.message)){
+          push(); cur = {};
+        }
+        cur[key] = (cur[key] ? cur[key] + ' ' : '') + m[2].trim();
+        lastKey = key; void hasContent;
+      }else if(line.trim() === ''){
+        if(lastKey && cur && cur[lastKey] !== undefined) cur[lastKey] += '\n';
+      }else if(cur && lastKey){
+        cur[lastKey] = (cur[lastKey] ? cur[lastKey].replace(/\n$/,'\n') : '') + (cur[lastKey] && !cur[lastKey].endsWith('\n') ? ' ' : '') + line.trim();
+      }
+    }
+    push();
+
+    if(sawKey && recs.length){
+      return recs.map(r => { const o = {}; Object.keys(r).forEach(k => o[k] = clean(String(r[k]).replace(/\s*\n\s*/g,' ').trim())); return o; });
+    }
+    // Fallback: each paragraph (or bullet/numbered line) is a message
+    const paras = text.split(/\n\s*\n/).map(p => p.trim()).filter(Boolean);
+    let items = paras;
+    if(paras.length === 1){
+      const bullets = text.split(/\n/).map(l => l.trim()).filter(l => /^([-*•]|\d+[.)])\s+/.test(l));
+      if(bullets.length > 1) items = bullets;
+    }
+    return items.map(p => ({ message: clean(p.replace(/^([-*•]|\d+[.)])\s+/, '').replace(/^#{1,6}\s*/,'').replace(/\s*\n\s*/g,' ')) }));
+  }
+
+  /* --- Preview --- */
+  function showPreview(){
+    $('#upStep1').hidden = true; $('#upStep2').hidden = false;
+    const n = pending.length;
+    $('#pvCount').textContent = `${n} new message${n===1?'':'s'} detected`;
+    renderPreview();
+  }
+  function renderPreview(){
+    $('#pvList').innerHTML = pending.map((p,i) => `
+      <label class="pv${p.selected?' sel':''}" data-i="${i}">
+        <input type="checkbox" ${p.selected?'checked':''}>
+        <div>
+          <b>${esc(p.title)}</b>
+          <div class="meta">${esc(p.category)}</div>
+          ${p.whenToSend ? `<div class="w">When: ${esc(p.whenToSend)}</div>` : ''}
+          <p>${esc(p.message)}</p>
+        </div>
+      </label>`).join('');
+    const sel = pending.filter(p => p.selected).length;
+    $('#pvSel').textContent = `${sel} of ${pending.length} selected`;
+    $('#pvImport').disabled = !sel;
+    $('#pvImport').style.opacity = sel ? 1 : .5;
+  }
+  $('#pvList').addEventListener('change', e => {
+    const row = e.target.closest('.pv'); if(!row) return;
+    pending[+row.dataset.i].selected = e.target.checked; renderPreview();
+  });
+  $('#pvAll').addEventListener('click', () => { pending.forEach(p => p.selected = true); renderPreview(); });
+  $('#pvNone').addEventListener('click', () => { pending.forEach(p => p.selected = false); renderPreview(); });
+  $('#pvBack').addEventListener('click', resetUpload);
+  $('#pvImport').addEventListener('click', () => {
+    const chosen = pending.filter(p => p.selected);
+    if(!chosen.length) return;
+    chosen.forEach(p => library.push({ id: uid(), title:p.title, category:p.category, whenToSend:p.whenToSend, message:p.message, whyItWorks:p.whyItWorks, source:'imported' }));
+    save(); closeModals();
+    filter = 'All'; query = ''; $('#search').value = ''; renderChips(); renderCards();
+    toast(`${chosen.length} message${chosen.length===1?'':'s'} added to your library.`);
+    pending = [];
+  });
+
+  /* ---------- Reset / Print ---------- */
+  $('#btnReset').addEventListener('click', () => {
+    confirmDialog('Reset your library?', 'This removes all custom, imported and edited messages and restores the three original LPMeet follow-ups.', 'Reset Library', () => {
+      library = DEFAULTS(); save(); filter = 'All'; query = ''; $('#search').value = '';
+      renderChips(); renderCards(); toast('Library reset to defaults.');
+    });
+  });
+  $('#btnPrint').addEventListener('click', () => window.print());
+
+  /* ---------- Workflow ---------- */
+  $('#flow').innerHTML = FLOW.map((s,i) =>
+    `<div class="step${s==='Follow up'?' hi':''}"><span class="n">${i+1}</span>${esc(s)}</div>${i<FLOW.length-1?'<div class="arrow">→</div>':''}`
+  ).join('');
+
+  /* ---------- Init ---------- */
+  renderChips();
+  renderCards();
+})();
+</script>
+</body>
+</html>
